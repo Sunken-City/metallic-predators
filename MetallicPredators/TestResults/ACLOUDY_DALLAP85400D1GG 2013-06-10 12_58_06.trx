@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ccb05435-abb9-4203-b8fd-98745097bd89" name="ACLOUDY@DALLAP85400D1GG 2013-06-10 12:58:06" runUser="BROWER\ACLOUDY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25537cb2-8d2a-4d6b-96b1-82d6afe5bdf0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ACLOUDY_DALLAP85400D1GG 2013-06-10 12_58_06">
+      <DeploymentItem filename="C:\Users\acloudy\documents\visual studio 2010\Projects\MetallicPredators\MetallicPredators\bin\Debug\MetallicPredators.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-10T12:58:06.1125364-05:00" queuing="2013-06-10T12:58:06.1665364-05:00" start="2013-06-10T12:58:06.1725364-05:00" finish="2013-06-10T12:58:06.5525364-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="drawTest" storage="c:\users\acloudy\documents\visual studio 2010\projects\metallicpredators\metallicpredatorstests\bin\debug\metallicpredatorstests.dll" id="de3060bf-1b9a-c504-13d7-13e977fbd0c4">
+      <Execution id="d76dde36-3547-4164-a509-a0af2296f926" />
+      <TestMethod codeBase="C:/Users/acloudy/documents/visual studio 2010/Projects/MetallicPredators/MetallicPredatorsTests/bin/Debug/MetallicPredatorsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MetallicPredatorsTests.DeckTest, MetallicPredatorsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="drawTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="de3060bf-1b9a-c504-13d7-13e977fbd0c4" executionId="d76dde36-3547-4164-a509-a0af2296f926" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d76dde36-3547-4164-a509-a0af2296f926" testId="de3060bf-1b9a-c504-13d7-13e977fbd0c4" testName="drawTest" computerName="DALLAP85400D1GG" duration="00:00:00.0217350" startTime="2013-06-10T12:58:06.1805364-05:00" endTime="2013-06-10T12:58:06.5315364-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d76dde36-3547-4164-a509-a0af2296f926">
+    </UnitTestResult>
+  </Results>
+</TestRun>

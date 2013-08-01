@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="81e1f2ba-8994-4c02-8588-aa898ee7cd1c" name="ACLOUDY@DALLAP85400D1GG 2013-06-10 15:09:56" runUser="BROWER\ACLOUDY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25537cb2-8d2a-4d6b-96b1-82d6afe5bdf0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ACLOUDY_DALLAP85400D1GG 2013-06-10 15_09_56">
+      <DeploymentItem filename="C:\Users\acloudy\documents\visual studio 2010\Projects\MetallicPredators\MetallicPredators\bin\Debug\MetallicPredators.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-10T15:09:56.5433712-05:00" queuing="2013-06-10T15:09:56.9512896-05:00" start="2013-06-10T15:09:56.9902818-05:00" finish="2013-06-10T15:09:57.4251948-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Test_ATT_Value" storage="c:\users\acloudy\documents\visual studio 2010\projects\metallicpredators\metallicpredatorstests\bin\debug\metallicpredatorstests.dll" id="965c4081-949e-b660-9e12-2f7d23862b8d">
+      <Execution id="c9137716-0c1d-47f6-b1cb-114f3842531a" />
+      <TestMethod codeBase="C:/Users/acloudy/documents/visual studio 2010/Projects/MetallicPredators/MetallicPredatorsTests/bin/Debug/MetallicPredatorsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MetallicPredatorsTests.AttackCardTest, MetallicPredatorsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Test_ATT_Value" />
+    </UnitTest>
+    <UnitTest name="TestMethod1" storage="c:\users\acloudy\documents\visual studio 2010\projects\metallicpredators\metallicpredatorstests\bin\debug\metallicpredatorstests.dll" id="24e6e755-487e-cdb4-cbf8-cd4ab1df2418">
+      <Execution id="a395202b-0252-4bcb-a270-05f47fe55e80" />
+      <TestMethod codeBase="C:/Users/acloudy/documents/visual studio 2010/Projects/MetallicPredators/MetallicPredatorsTests/bin/Debug/MetallicPredatorsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MetallicPredatorsTests.UnitTest1, MetallicPredatorsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestMethod1" />
+    </UnitTest>
+    <UnitTest name="drawTest" storage="c:\users\acloudy\documents\visual studio 2010\projects\metallicpredators\metallicpredatorstests\bin\debug\metallicpredatorstests.dll" id="de3060bf-1b9a-c504-13d7-13e977fbd0c4">
+      <Execution id="14246116-6056-44da-b4d9-ae80d1de6215" />
+      <TestMethod codeBase="C:/Users/acloudy/documents/visual studio 2010/Projects/MetallicPredators/MetallicPredatorsTests/bin/Debug/MetallicPredatorsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MetallicPredatorsTests.DeckTest, MetallicPredatorsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="drawTest" />
+    </UnitTest>
+    <UnitTest name="shuffleTest" storage="c:\users\acloudy\documents\visual studio 2010\projects\metallicpredators\metallicpredatorstests\bin\debug\metallicpredatorstests.dll" id="8a434ebf-0229-a9b6-b8c1-7769c37f4256">
+      <Execution id="414790f5-b52a-44c1-91cd-58ed3326f595" />
+      <TestMethod codeBase="C:/Users/acloudy/documents/visual studio 2010/Projects/MetallicPredators/MetallicPredatorsTests/bin/Debug/MetallicPredatorsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MetallicPredatorsTests.DeckTest, MetallicPredatorsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="shuffleTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="24e6e755-487e-cdb4-cbf8-cd4ab1df2418" executionId="a395202b-0252-4bcb-a270-05f47fe55e80" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8a434ebf-0229-a9b6-b8c1-7769c37f4256" executionId="414790f5-b52a-44c1-91cd-58ed3326f595" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="965c4081-949e-b660-9e12-2f7d23862b8d" executionId="c9137716-0c1d-47f6-b1cb-114f3842531a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de3060bf-1b9a-c504-13d7-13e977fbd0c4" executionId="14246116-6056-44da-b4d9-ae80d1de6215" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="a395202b-0252-4bcb-a270-05f47fe55e80" testId="24e6e755-487e-cdb4-cbf8-cd4ab1df2418" testName="TestMethod1" computerName="DALLAP85400D1GG" duration="00:00:00.0098138" startTime="2013-06-10T15:09:57.0072784-05:00" endTime="2013-06-10T15:09:57.3262146-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a395202b-0252-4bcb-a270-05f47fe55e80">
+    </UnitTestResult>
+    <UnitTestResult executionId="414790f5-b52a-44c1-91cd-58ed3326f595" testId="8a434ebf-0229-a9b6-b8c1-7769c37f4256" testName="shuffleTest" computerName="DALLAP85400D1GG" duration="00:00:00.0055969" startTime="2013-06-10T15:09:57.3322134-05:00" endTime="2013-06-10T15:09:57.3402118-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="414790f5-b52a-44c1-91cd-58ed3326f595">
+    </UnitTestResult>
+    <UnitTestResult executionId="c9137716-0c1d-47f6-b1cb-114f3842531a" testId="965c4081-949e-b660-9e12-2f7d23862b8d" testName="Test_ATT_Value" computerName="DALLAP85400D1GG" duration="00:00:00.0004575" startTime="2013-06-10T15:09:57.3452108-05:00" endTime="2013-06-10T15:09:57.3482102-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c9137716-0c1d-47f6-b1cb-114f3842531a">
+    </UnitTestResult>
+    <UnitTestResult executionId="14246116-6056-44da-b4d9-ae80d1de6215" testId="de3060bf-1b9a-c504-13d7-13e977fbd0c4" testName="drawTest" computerName="DALLAP85400D1GG" duration="00:00:00.0002265" startTime="2013-06-10T15:09:57.3532092-05:00" endTime="2013-06-10T15:09:57.3562086-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14246116-6056-44da-b4d9-ae80d1de6215">
+    </UnitTestResult>
+  </Results>
+</TestRun>

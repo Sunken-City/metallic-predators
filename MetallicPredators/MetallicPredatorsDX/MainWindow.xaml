@@ -1,0 +1,8 @@
+﻿<Window x:Class="MetallicPredatorsDX.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBlock Height="311" HorizontalAlignment="Left" Name="textBlock1" Text="TextBlock" VerticalAlignment="Top" Width="503" />
+    </Grid>
+</Window>

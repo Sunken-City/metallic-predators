@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1beb39fe-3759-4160-8a8c-1a8ad9bec416" name="ACLOUDY@DALLAP85400D1GG 2013-06-10 15:02:29" runUser="BROWER\ACLOUDY" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="25537cb2-8d2a-4d6b-96b1-82d6afe5bdf0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="ACLOUDY_DALLAP85400D1GG 2013-06-10 15_02_29">
+      <DeploymentItem filename="C:\Users\acloudy\documents\visual studio 2010\Projects\MetallicPredators\MetallicPredators\bin\Debug\MetallicPredators.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2013-06-10T15:02:29.6931841-05:00" queuing="2013-06-10T15:02:29.7531901-05:00" start="2013-06-10T15:02:29.7621910-05:00" finish="2013-06-10T15:02:30.0722220-05:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="shuffleTest" storage="c:\users\acloudy\documents\visual studio 2010\projects\metallicpredators\metallicpredatorstests\bin\debug\metallicpredatorstests.dll" id="8a434ebf-0229-a9b6-b8c1-7769c37f4256">
+      <Execution id="34624c5f-db92-443b-911e-d82ddf160146" />
+      <TestMethod codeBase="C:/Users/acloudy/documents/visual studio 2010/Projects/MetallicPredators/MetallicPredatorsTests/bin/Debug/MetallicPredatorsTests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MetallicPredatorsTests.DeckTest, MetallicPredatorsTests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="shuffleTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8a434ebf-0229-a9b6-b8c1-7769c37f4256" executionId="34624c5f-db92-443b-911e-d82ddf160146" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="34624c5f-db92-443b-911e-d82ddf160146" testId="8a434ebf-0229-a9b6-b8c1-7769c37f4256" testName="shuffleTest" computerName="DALLAP85400D1GG" duration="00:00:00.0282063" startTime="2013-06-10T15:02:29.7691917-05:00" endTime="2013-06-10T15:02:30.0522200-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="34624c5f-db92-443b-911e-d82ddf160146">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method MetallicPredatorsTests.DeckTest.shuffleTest threw exception: 
+System.ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index</Message>
+          <StackTrace>    at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at MetallicPredators.Deck.shuffle() in C:\Users\acloudy\documents\visual studio 2010\Projects\MetallicPredators\MetallicPredators\Deck.cs:line 44
+   at MetallicPredatorsTests.DeckTest.shuffleTest() in C:\Users\acloudy\documents\visual studio 2010\Projects\MetallicPredators\MetallicPredatorsTests\DeckTest.cs:line 87
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
